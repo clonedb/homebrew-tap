@@ -1,18 +1,18 @@
 class ClonedbDev < Formula
   desc "Pull a referentially-complete subset of a PostgreSQL database into a dev/test DB"
   homepage "https://clonedb.dev"
-  version "0.1.0-dev.20260709151241"
+  version "0.1.1-dev.20260925180547"
   license "MIT"
   conflicts_with "clonedb"
 
   on_macos do
     on_arm do
-      url "https://github.com/clonedb/homebrew-tap/releases/download/v0.1.0-dev.20260709151241/clonedb-0.1.0-dev.20260709151241-aarch64-apple-darwin.tar.gz"
-      sha256 "6963345ab28824bab41acccd45ef7cc12c4420597a8be69d6a225d3bbd3032c1"
+      url "https://github.com/clonedb/homebrew-tap/releases/download/v0.1.1-dev.20260925180547/clonedb-0.1.1-dev.20260925180547-aarch64-apple-darwin.tar.gz"
+      sha256 "1a50c53f5458df46b05b2f14bcba7d29b28ad5b9548f9987a62c014228b7e909"
     end
     on_intel do
-      url "https://github.com/clonedb/homebrew-tap/releases/download/v0.1.0-dev.20260709151241/clonedb-0.1.0-dev.20260709151241-x86_64-apple-darwin.tar.gz"
-      sha256 "96388842531b5178e4f6053299ec75c367aac082cbcc4ef84401259da5dd15ea"
+      url "https://github.com/clonedb/homebrew-tap/releases/download/v0.1.1-dev.20260925180547/clonedb-0.1.1-dev.20260925180547-x86_64-apple-darwin.tar.gz"
+      sha256 "863485358edd93feeb0fa24b4e4365b96633da6594e8ca65457bec95d13cb0ef"
     end
   end
 
